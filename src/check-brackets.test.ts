@@ -21,9 +21,7 @@ describe('checkBrackets', () => {
     },
   ];
 
-  cases.forEach(({ name, brackets, isCorrect }) => {
-    it(name, () => {
-      expect(checkBrackets(brackets)).toBe(isCorrect);
-    });
+  it.each(cases)('$name', ({ brackets, isCorrect }) => {
+    expect(checkBrackets(brackets)).toBe(isCorrect);
   });
 });
