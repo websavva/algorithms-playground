@@ -1,0 +1,19 @@
+{
+  "name": "@websavva/algorithms-playground",
+  "version": "1.0.0",
+  "description": "",
+  "private": "true",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.8.1",
+    "jiti": "^2.3.3",
+    "prettify": "^0.1.7",
+    "vitest": "^2.1.4"
+  }
+}
