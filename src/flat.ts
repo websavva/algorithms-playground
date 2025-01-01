@@ -1,5 +1,5 @@
 export function flat(arr: any[], n: number): any {
-  if (n > 1000) throw new Error(`n is larger than max depth at ${n}`);
+  if (n > 1000) throw new Error(`n is larger than max depth of ${n}`);
 
   const flattenedArr: any[] = [];
 
